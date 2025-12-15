@@ -6,6 +6,10 @@ A modern, responsive Netflix clone built with **React** and **Vite**, featuring 
 ![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=flat&logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+## 🌐 Live Demo
+
+**[View Live Demo](https://kiran-kata.github.io/Netflix-clone-page/)**
+
 ## ✨ Features
 
 - 🎥 **Video Background** - Stunning hero section with autoplay video
