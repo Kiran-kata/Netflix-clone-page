@@ -7,8 +7,10 @@ export default function Hero() {
         muted 
         playsInline
         style={styles.bgVideo}
+        poster="https://assets.nflxext.com/ffe/siteui/vlv3/f272782d-cf96-4988-a675-6db2afd165e0/web/IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg"
       >
-        <source src="/netflix-bg.mp4" type="video/mp4" />
+        <source src="https://cdn.coverr.co/videos/coverr-netflix-style-intro-6737/1080p.mp4" type="video/mp4" />
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-going-down-a-curved-highway-down-a-mountain-41576-large.mp4" type="video/mp4" />
       </video>
 
       <div style={styles.overlay} />
