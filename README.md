@@ -8,7 +8,9 @@ A modern, responsive Netflix clone built with **React** and **Vite**, featuring 
 
 ## 🌐 Live Demo
 
-**[View Live Demo](https://kiran-kata.github.io/Netflix-clone-page/)**
+🎥 **[View Live Demo →](https://kiran-kata.github.io/Netflix-clone-page/)**
+
+Experience the full Netflix-inspired interface with video backgrounds and interactive features!
 
 ## ✨ Features
 
