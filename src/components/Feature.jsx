@@ -1,60 +1,43 @@
-export default function Feature({ title, text, image, video, reverse }) {
+export default function Feature({ title, text, image, video, reverse, downloadCard }) {
+  const videoClass = title === "Watch everywhere" ? "feature-video feature-video-devices" : "feature-video";
+
   return (
-    <section style={styles.section}>
+    <section className="feature-section">
       <div
-        className="container"
-        style={{
-          ...styles.grid,
-          flexDirection: reverse ? "row-reverse" : "row",
-        }}
+        className={`container feature-grid ${reverse ? "feature-reverse" : ""}`}
       >
-        <div style={styles.textContent}>
+        <div className="feature-text">
           <h2>{title}</h2>
           <p>{text}</p>
         </div>
 
-        <div style={styles.media}>
-          <img src={image} alt="" style={styles.image} />
+        <div className="feature-media">
+          <img src={image} alt="" className="feature-image" />
           {video && (
-            <video autoPlay playsInline muted loop style={styles.video}>
+            <video autoPlay playsInline muted loop className={videoClass}>
               <source src={video} type="video/mp4" />
             </video>
+          )}
+          {downloadCard && (
+            <div className="download-card">
+              <img
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+                alt="Stranger Things"
+                className="download-poster"
+              />
+              <div className="download-text">
+                <p className="download-title">Stranger Things</p>
+                <p className="download-status">Downloading...</p>
+              </div>
+              <img
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+                alt="Downloading"
+                className="download-gif"
+              />
+            </div>
           )}
         </div>
       </div>
     </section>
   );
 }
-
-const styles = {
-  section: { 
-    padding: "70px 0",
-  },
-  grid: {
-    display: "flex",
-    alignItems: "center",
-    gap: 60,
-    flexWrap: "wrap",
-  },
-  textContent: {
-    flex: 1,
-    minWidth: 300,
-  },
-  media: { 
-    position: "relative",
-    flex: 1,
-    minWidth: 300,
-  },
-  image: { 
-    width: "100%",
-    position: "relative",
-    zIndex: 2,
-  },
-  video: {
-    position: "absolute",
-    top: "20%",
-    left: "13%",
-    width: "74%",
-    zIndex: 1,
-  },
-};
