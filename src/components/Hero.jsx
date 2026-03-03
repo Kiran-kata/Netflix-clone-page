@@ -5,7 +5,7 @@ export default function Hero() {
       <div className="hero-overlay" />
 
       <div className="container hero-content">
-        <h1>Netflix-Inspired UI Clone Demo</h1>
+        <h1>Streaming Platform UI Clone Demo</h1>
         <p className="hero-subtitle">For portfolio and learning use only.</p>
         <p className="hero-cta">Demo only — no account creation, billing, or personal data collection.</p>
 

@@ -2,28 +2,28 @@ import { useState } from "react";
 
 const questions = [
   { 
-    q: "What is Netflix?", 
-    a: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices." 
+    q: "What is this project?", 
+    a: "This is a front-end UI clone demo built for learning and portfolio use." 
   },
   { 
-    q: "How much does Netflix cost?", 
-    a: "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans and pricing vary by region and may change over time." 
+    q: "Can I subscribe here?", 
+    a: "No. This demo does not provide subscriptions, billing, or account services." 
   },
   { 
-    q: "Where can I watch?", 
-    a: "Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device." 
+    q: "Does this collect my data?", 
+    a: "No. The input fields are visual only and are not connected to a backend." 
   },
   { 
-    q: "How do I cancel?", 
-    a: "Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks." 
+    q: "Is this an official website?", 
+    a: "No. This project is not affiliated with Netflix or any streaming company." 
   },
   { 
-    q: "What can I watch on Netflix?", 
-    a: "Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want." 
+    q: "What technologies are used?", 
+    a: "The demo is built with React and Vite using reusable components and responsive CSS." 
   },
   {
-    q: "Is Netflix good for kids?",
-    a: "The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space."
+    q: "Where is the live demo?",
+    a: "Use the Live Demo link in the footer to open the latest deployed version on GitHub Pages."
   },
 ];
 

@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <header className="header">
-      <div className="demo-banner">Demo project — not affiliated with Netflix. Do not enter personal information.</div>
+      <div className="demo-banner">Demo project — not affiliated with any streaming brand. Do not enter personal information.</div>
       <div className="container header-inner">
-        <div className="header-logo" aria-label="Netflix UI Clone Demo">NETFLIX UI CLONE</div>
+        <div className="header-logo" aria-label="Streaming UI Clone Demo">STREAMING UI CLONE</div>
 
         <div className="header-actions">
           <select className="lang-select" aria-label="Language selector">

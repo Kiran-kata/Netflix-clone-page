@@ -12,7 +12,17 @@ A modern, responsive Netflix clone built with **React** and **Vite**, featuring 
 
 🚀 **[View Live Demo (GitHub Pages) →](https://kiran-kata.github.io/Netflix-clone-page/)**
 
+🔗 Direct URL: https://kiran-kata.github.io/Netflix-clone-page/
+
 Experience the full Netflix-inspired interface with responsive sections and interactive FAQ.
+
+## ⚠️ Browser Safety Warning
+
+If a browser shows a warning for this demo URL, it is typically an automated Safe Browsing false-positive for clone-style layouts.
+
+- The page is a front-end demo only.
+- No account sign-in or payment processing is implemented.
+- No personal data is stored.
 
 ## ✨ Features
 
