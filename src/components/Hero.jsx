@@ -5,13 +5,13 @@ export default function Hero() {
       <div className="hero-overlay" />
 
       <div className="container hero-content">
-        <h1>Unlimited movies, TV shows, and more</h1>
-        <p className="hero-subtitle">Watch anywhere. Cancel anytime.</p>
-        <p className="hero-cta">Ready to watch? Enter your email to create or restart your membership.</p>
+        <h1>Netflix-Inspired UI Clone Demo</h1>
+        <p className="hero-subtitle">For portfolio and learning use only.</p>
+        <p className="hero-cta">Demo only — no account creation, billing, or personal data collection.</p>
 
         <div className="email-form">
-          <input type="email" placeholder="Email address" className="email-input" />
-          <button className="cta-btn">Get Started <span className="cta-arrow">›</span></button>
+          <input type="email" placeholder="Demo input (not submitted)" className="email-input" />
+          <button className="cta-btn">Try Demo <span className="cta-arrow">›</span></button>
         </div>
       </div>
     </section>
