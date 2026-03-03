@@ -8,13 +8,13 @@ A modern, responsive Netflix clone built with **React** and **Vite**, featuring 
 
 ## 🌐 Live Demo
 
-🎥 **[View Live Demo →](https://kiran-kata.github.io/Netflix-clone-page/)**
+🚀 **[View Live Demo (GitHub Pages) →](https://kiran-kata.github.io/Netflix-clone-page/)**
 
-Experience the full Netflix-inspired interface with video backgrounds and interactive features!
+Experience the full Netflix-inspired interface with responsive sections and interactive FAQ.
 
 ## ✨ Features
 
-- 🎥 **Video Background** - Stunning hero section with autoplay video
+- 🖼️ **Cinematic Hero** - Netflix-style hero with layered gradient treatment
 - 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile
 - ⚡ **Fast Performance** - Built with Vite for lightning-fast development
 - 🎨 **Netflix Design** - Authentic Netflix color scheme and styling
@@ -77,7 +77,7 @@ netflix-clone-page/
 - Sign In button
 
 ### Hero
-- Video background with autoplay
+- Cinematic background image with layered overlay
 - Email signup form
 - Call-to-action button
 
@@ -123,7 +123,7 @@ The app uses modern CSS techniques including:
 ### Component Architecture
 - Modular component structure
 - Props for reusability
-- Inline styles with JavaScript objects
+- Class-based styling with reusable CSS primitives
 - React hooks (useState) for state management
 
 ### Performance
