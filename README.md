@@ -2,6 +2,8 @@
 
 A modern, responsive Netflix clone built with **React** and **Vite**, featuring a sleek UI with video backgrounds, interactive components, and Netflix-inspired design.
 
+> ⚠️ This is a **UI clone demo project** for learning/portfolio use only. It is not affiliated with Netflix and does not collect user data.
+
 ![Netflix Clone](https://img.shields.io/badge/React-18.3-61DAFB?style=flat&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=flat&logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -19,6 +21,7 @@ Experience the full Netflix-inspired interface with responsive sections and inte
 - ⚡ **Fast Performance** - Built with Vite for lightning-fast development
 - 🎨 **Netflix Design** - Authentic Netflix color scheme and styling
 - 🔄 **Interactive Components** - Accordion FAQ, feature sections, and more
+- 🔐 **Safe Demo Messaging** - Clearly marked as non-affiliated demo with no sign-in/data capture
 - 🎯 **Modern React** - Uses React hooks and component-based architecture
 
 ## 🚀 Quick Start
@@ -72,14 +75,15 @@ netflix-clone-page/
 ## 🎨 Components
 
 ### Header
-- Netflix logo (SVG)
+- Demo banner with non-affiliation notice
+- Brand-style demo wordmark
 - Language selector
-- Sign In button
+- Demo Mode button
 
 ### Hero
 - Cinematic background image with layered overlay
-- Email signup form
-- Call-to-action button
+- Demo input field (not submitted)
+- Demo call-to-action button
 
 ### Feature
 - Reusable feature sections
